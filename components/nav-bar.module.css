@@ -1,0 +1,96 @@
+/* Стили для Navbar */
+
+.navbar {
+    background-color: #2b133a;
+    color: #D8B4FE;
+    padding: 6px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #353436;
+  }
+
+  .navbar li {
+    list-style: none;
+    padding-right: 30px;
+    font-size: 21px;
+  }
+
+  .navbar ul {
+    padding-right: 580px;
+  }
+  
+  /* Логотип */
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #FFD700;
+  }
+  
+  .navbar__logo span {
+    margin-left: 4px;
+    color: #7428a7;
+  }
+  
+  /* Навигация */
+  .navbar__menu {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .navbar__menu a {
+    color: #D8B4FE;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navbar__menu a:hover {
+    color: #FFFFFF;
+  }
+  
+  /* Иконки соцсетей */
+  .navbar__social {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .navbar__social button {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar__social button:hover {
+    background: #5B21B6;
+    border-radius: 4px;
+  }
+  
+  /* Корзина и архив покупок */
+  .navbar__actions {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .navbar__actions button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #D8B4FE;
+    border-radius: 4px;
+    background: transparent;
+    color: #D8B4FE;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar__actions button:hover {
+    background: #D8B4FE;
+    color: #1A1241;
+  }
+  

@@ -1,0 +1,17 @@
+.customSelect {
+    width: 800px;
+    padding: 8px;
+    font-size: 20px;
+    background-color: #1c2027;
+    border: 1px solid #454952;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .customSelect option {
+    background-color: #1c2027;
+    color: #b3aea5;
+    font-size: 18px;
+  }

@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1335;
+  }
+  
+  .product {
+    display: flex;
+    background: #2c214a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .productImage {
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    width: 350px;
+    height: 400px;
+  }
+  
+  .productInfo {
+    flex: 2;
+    padding-right: 410px;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 8px 15px;
+    background: linear-gradient(45deg, #ffcc00, #ff33cc);
+    border-radius: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .productInfo h1 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  
+  .details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    background: white;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 5px;
+  }
+  
+  .price {
+    list-style: none;
+    padding-left: 450px;
+    text-align: left;
+  }
+  
+  .discount {
+    background: #e6ff00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .oldPrice {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .newPrice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+  .important {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  .notice {
+    color: #db0202;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buyButton, .cartButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 25px;
+    position: absolute;
+    right: 328px;
+    bottom: 250px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .buyButton {
+    background: #564c96;
+    color: white;
+    margin-right: 10px;
+    width: 160px;
+    position: absolute;
+    right: 320px;
+    bottom: 340px;
+    text-align: center;
+  }
+  
+  .cartButton {
+    background: #564c96;
+    color: rgba(255, 255, 255, 0.829);
+  }
+  
+  .buyButton:hover, .cartButton:hover {
+    opacity: 0.8;
+  }
+  
+
+  .h4margin {
+    margin-bottom: 20px;
+  }
+
+  .description {
+    text-align: left;
+    margin-left: 450px;
+  }

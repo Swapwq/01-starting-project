@@ -1,0 +1,76 @@
+.meal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    background: linear-gradient(90deg, #26192c, #200f25);
+  }
+  
+  .headerText {
+    padding: 0.5rem 1rem 0 1rem;
+  }
+  
+  .headerText h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .headerText p {
+    font-size: 0.75rem;
+    color: #ffffff;
+    font-style: italic;
+  }
+  
+  .meal h2,
+  .meal p {
+    margin: 0;
+  }
+  
+  .image {
+    position: relative;
+    height: 15rem;
+  }
+  
+  .meal img {
+    object-fit: cover;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .summary {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .actions {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .actions a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #8b2af9, #b005ff);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .actions a:hover,
+  .actions a:active {
+    background: linear-gradient(90deg, #8b2af9, #b005ff );
+    box-shadow: 0 0 12px rgba(141, 18, 242, 0.8);
+  }

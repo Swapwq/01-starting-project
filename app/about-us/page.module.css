@@ -1,0 +1,17 @@
+.margin {
+    color: #D8B4FE;
+    margin-bottom: 75px;
+}
+
+.marginsecond {
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-top: 30px;
+    color: #949197;
+}
+
+.list {
+    list-style: none
+}
